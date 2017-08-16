@@ -15,7 +15,13 @@ public class SUADHIASHDIUS {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("minha pomba");
+        for(int i = 0; i<10;i++){
+        if(System.currentTimeMillis()%2==1){
+            System.out.println("minha pomba");
+        }else{
+            System.out.println("Error");
+        }
+        }
     }
     
 }
